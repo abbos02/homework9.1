@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    width: 100%;
+    min-height: 650px;
+    background: rgb(214, 122, 83);
+    display: grid;
+    color:white;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns:30% 65% ;
+    grid-template-rows: 60px 450px 60px;
+    gap:20px;   
+    text-align: center;
+    grid-template-areas: 
+    "header header"
+    "aside article"
+    "footer footer"
+    ;
+    
+}
+
+.gird-item-1{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    background: rgb(106, 220, 241);
+    grid-area: header;
+
+}
+
+.gird-item-2{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 60px;
+    background: rgb(42, 211, 245);
+    grid-area: aside;
+
+}
+
+.gird-item-3{
+    margin-top: 30px;
+    margin-left: 30px;
+    grid-area: article;
+    width: 100%;
+    min-height: 60px;
+    background: rgb(244, 73, 54);
+    text-align: center;
+    display: grid;   
+}
+.gird-item-3 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gird-item-in{
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding: 20px;
+}
+.gird-item-4{
+    width: 300px;
+    min-height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(193, 193, 197);
+
+}
+.gird-item-5{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:300px;
+    background: rgb(193, 193, 197);
+}
+
+.gird-item-6{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background: rgb(193, 193, 197);
+}
+
+.gird-item-7{
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    grid-area: footer ;
+    width: 100%;
+    min-height: 60px;
+    background:rgb(106, 220, 241);
+}
