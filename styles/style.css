@@ -44,7 +44,7 @@
     align-items: center;
     width: 100%;
     min-height: 60px;
-    background: rgb(42, 211, 245);
+    background: rgb(2, 183, 220);
     grid-area: aside;
 
 }
@@ -67,13 +67,14 @@
 
 .gird-item-in{
     display: flex;
+    justify-content:space-around;
     align-items: end;
     gap: 20px;
     padding: 20px;
 }
 .gird-item-4{
-    width: 300px;
-    min-height:300px;
+    width: 250px;
+    min-height:200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,20 +82,20 @@
 
 }
 .gird-item-5{
-    width: 300px;
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height:300px;
+    min-height:200px;
     background: rgb(193, 193, 197);
 }
 
 .gird-item-6{
-    width: 300px;
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
+    min-height: 200px;
     background: rgb(193, 193, 197);
 }
 
